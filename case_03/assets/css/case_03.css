@@ -1,0 +1,57 @@
+
+#frame>div{
+    position: fixed;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 255px;
+    aspect-ratio: 1/1;
+    border: 12px solid saddlebrown;
+    z-index: 999;
+}
+#frame>div>div{
+    position: fixed;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 250px;
+    aspect-ratio: 1/1;
+    border: 6px solid greenyellow;
+}
+#back>div{
+    border-radius: 100%;
+    width: 250px;
+    aspect-ratio: 1/1;
+    margin: 350px 0px;
+    text-align: center;
+    position: relative;
+
+}
+#back{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+    height: 100vh;
+}
+#back>div:first-child{
+    background: aqua;
+}
+#back>div:nth-child(2){
+    background: antiquewhite;
+}
+#back>div:last-child{
+    background: yellow;
+}
+#back>div>span{
+    position: relative;
+    top: 48%;
+}
