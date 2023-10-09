@@ -1,5 +1,6 @@
 header>nav>dl>dd{
     display: inline;
+    font-weight: bold;
 }
 header{
     position: relative;
@@ -22,15 +23,17 @@ main>aside{
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 20%;
+    width: 20vw;
 }
 main>aside>dl>dd{
     margin-top: 20%;
     margin-left: 25%;
+    font-weight: bold;
+    font-size: 20px;
 }
 main>section>section>div{
     display: inline-block;
-    width: calc((100vw - 20vw) / 3);
+    width: calc((100vw - 22vw) / 3);
     height: 40vh;
     background-image: url("https://i.pinimg.com/originals/a1/77/df/a177dfc84703c31afa0d501ccf43fe4f.gif");
     background-position: center;
@@ -40,8 +43,8 @@ main>section>section>div{
 }
 main>section>section{
     position: absolute;
-    left: 20%;
-    top: 0;
+    left: 20.5vw;
+    top: 1vh;
 }
 main>section>p {
     margin-left: 20.5%;
@@ -53,7 +56,7 @@ main > section > section {
 }
 footer{
     position: relative;
-    background: gray;
+    background: rgb(128, 128, 128);
     bottom: 0;
     height: 5vh;
     text-align: center;
@@ -67,5 +70,3 @@ footer>span{
     margin: auto;
 
 }
-
-
